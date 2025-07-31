@@ -1,0 +1,47 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #111;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+main {
+  padding: 1rem;
+}
+#catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.album {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+.album img {
+  width: 100%;
+}
+.album a {
+  display: block;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+}
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
